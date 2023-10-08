@@ -1,0 +1,238 @@
+.colorP {
+    background-color: #c2dfff;
+}
+
+.colorN {
+    background-color: #275cab;
+}
+
+.colorNFont{
+    color: #275cab;
+}
+
+.colorWFont {
+    color: white;
+}
+
+
+.hover1:hover {
+    background-color: #275cab;
+    color: white;
+}
+
+.ColorW_fontB {
+    color: white;
+    font-size: 22px;
+}
+
+.colorInt{
+    background-color: #008484;
+}
+
+.colorEEE{
+    background-color: #eeeeee;
+}
+
+
+
+
+.ColorW_fontB:hover{
+    background-color: #c2dfff;
+    color: #275cab;
+   
+   
+}
+
+.listR_B {
+    border-right: 2px solid white;
+}
+
+.colorW_H:hover {
+    background-color: white;
+    color: #275cab;
+}
+
+.colorW_H {
+    color: white
+}
+
+.borderB_D {
+    border-bottom: 2px dotted #275cab;
+}
+
+.borderB_LF {
+    border-bottom: 5px solid white;
+
+    font-size: 35px;
+}
+
+
+
+
+.borderB_SF {
+    border-bottom: 2px solid white;
+
+    font-size: 25px;
+}
+
+.iii {
+    font-size: 15px;
+    color: rosybrown
+}
+
+@media screen and (max-width :990px) {
+    .jjj {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width :990px) {
+    .kkk {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width :1200px) {
+    .vvv {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.lll {
+    height: 25%;
+    background-color: rgba(2, 1, 10, 0.24);
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.mmm {
+    height: 75%;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    background-color: aliceblue;
+}
+
+.nnn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ooo {
+    height: 600px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ppp{
+    border-bottom: 5px solid #275cab;
+}
+
+.qqq{
+    background-color:#275cab ;
+    color: white;
+    text-decoration: none;
+}
+.qqq:hover{
+    background-color: white;
+    color:#275cab ;
+}
+
+
+.dTabOverHeight{
+    overflow: hidden;
+     height: 500px;
+ 
+}
+
+.dTabOverHeight>div{
+    padding-bottom: 100%;
+}
+
+
+
+
+/* about css */
+
+.aboutNav:hover{
+    border-left: 5px solid #275cab ;
+}
+
+@media screen (max-width 1200px) {
+    .about1stDiv{
+        width:70vw;
+    }
+}
+
+.AdmissionDiv1{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    height: 60vh; 
+    background-color: rgb(51, 35, 24); 
+    color: aliceblue; 
+    gap: 20px;
+}
+
+
+
+.newsDiv::before{
+    content: "";
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: #275cab;
+}
+
+.navNews:hover:after{
+    content: "";
+    visibility: visible;
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: #275cab;
+}
+
+.navNews::after{
+    content: "";
+   visibility: hidden;
+   display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 5px;
+    background-color: #275cab;
+}
+
+
+.img-container {
+    position: relative;
+    max-width: 100%; 
+    
+  }
+  
+  .img-container .img-content {
+    position: absolute; 
+    bottom: 10px; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 10px; 
+  }
+
